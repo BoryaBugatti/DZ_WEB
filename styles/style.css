@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.063rem solid #EAECF0;
+}
+
+.logo1_and_var{
+    width: 10.563rem;
+    height: 2rem;
+    display: flex;
+    gap: 1rem;
+    margin-left: 11.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.logo1_and_var img{
+    width: 2rem;
+    height: 2rem;
+}
+
+.logo1_and_var p{
+    color: #354153;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.user_logo{
+    display: flex;
+    margin-top: 1.25rem;
+    margin-right: 10rem;
+    margin-bottom: 1.25rem;
+}
+
+.user_logo img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.section_header{
+    display: flex;
+    width: 100rem;
+    height: 2.5rem;
+    margin-top: 2.5rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #354153;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+.news{
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    width: 8.188rem;
+    height: 2.5rem;
+    border: 0.063rem solid #EAECF0;
+    background-color: #FFFFFF;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.economics{
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    width: 7.563rem;
+    height: 2.5rem;
+    border: 0.063rem solid #EAECF0;
+    background-color: #FFFFFF;
+}
+
+.sport{
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    width: 5.125rem;
+    height: 2.5rem;
+    border: 0.063rem solid #EAECF0;
+    background-color: #FFFFFF;
+}
+
+.society{
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    width: 7.188rem;
+    height: 2.5rem;
+    border: 0.063rem solid #EAECF0;
+    background-color: #FFFFFF;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.news:hover{
+    cursor: pointer;
+    background-color: #F2F4F7;
+}
+
+.economics:hover{
+    cursor: pointer;
+    background-color: #F2F4F7;
+}
+
+.sport:hover{
+    cursor: pointer;
+    background-color: #F2F4F7;
+}
+
+.society:hover{
+    cursor: pointer;
+    background-color: #F2F4F7;
+}
+
+select{
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    padding-right: 2.75rem;
+    padding-bottom: 0.5rem;
+    border: 1px solid #EAECF0;
+    background-color: #FFFFFF;
+    font-weight: 600;
+    border-radius: 0.5rem;
+}
+select:hover{
+    cursor: pointer;
+    background-color: #F2F4F7;
+}
+
+.cards{
+    margin-top: 1.5rem;
+    margin-left: 10rem;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    border: 0.063rem solid #EAECF0;
+    border-radius: 0.5rem;
+    width: 23.5rem;
+    height: 37.5rem;
+
+}
+.card1-head{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    margin-right: 1.5rem;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #667085;
+}
+.card1 img{
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    width: 20.5rem;
+    height: 14.063rem;
+}
+
+.card1-text1{
+    display: flex;
+    flex-direction: column;
+    width: 20.5rem;
+    height: 8rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    margin-right: 1.5rem;
+    font-size: 1.5rem;
+    color: #0D1421;
+    font-weight: 500;
+}
+
+.card1-text2{
+    display: flex;
+    flex-direction: column;
+    width: 20.5rem;
+    height: 7.938rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    margin-right: 1.5rem;
+    font-weight: 400;
+    color: #354153;
+    font-size: 1.125rem;
+}
+
+.card2{
+    display: flex;
+    flex-direction: column;
+    border: 0.063rem solid #EAECF0;
+    border-radius: 0.5rem;
+    width: 23.5rem;
+    height: 37.5rem;
+
+}
+.card2-head{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    margin-right: 1.5rem;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #667085;
+}
+.card2 img{
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    width: 20.5rem;
+    height: 14.063rem;
+}
+
+.card2-text1{
+    display: flex;
+    flex-direction: column;
+    width: 20.5rem;
+    height: 6rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    margin-right: 1.5rem;
+    font-size: 1.6rem;
+    color: #0D1421;
+    font-weight: 500;
+}
+
+.card2-text2{
+    display: flex;
+    flex-direction: column;
+    width: 20.5rem;
+    height: 9.938rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    margin-right: 1.5rem;
+    font-weight: 400;
+    color: #354153;
+    font-size: 1.125rem;
+}
+
+.card3{
+    display: flex;
+    flex-direction: column;
+    border: 0.063rem solid #EAECF0;
+    border-radius: 0.5rem;
+    width: 23.5rem;
+    height: 37.5rem;
+
+}
+.card3-head{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    margin-right: 1.5rem;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #667085;
+}
+.card3 img{
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    width: 20.5rem;
+    height: 14.063rem;
+}
+
+.card3-text1{
+    display: flex;
+    flex-direction: column;
+    width: 20.5rem;
+    height: 10rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    margin-right: 1.5rem;
+    font-size: 1.5rem;
+    color: #0D1421;
+    font-weight: 500;
+}
+
+.card3-text2{
+    display: flex;
+    flex-direction: column;
+    width: 20.5rem;
+    height: 9.938rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    margin-right: 1.5rem;
+    font-weight: 400;
+    color: #354153;
+    font-size: 1.125rem;
+}
+
+.card4{
+    display: flex;
+    flex-direction: column;
+    border: 0.063rem solid #EAECF0;
+    border-radius: 0.5rem;
+    width: 23.5rem;
+    height: 37.5rem;
+
+}
+.card4-head{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    margin-right: 1.5rem;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #667085;
+}
+.card4 img{
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    width: 20.5rem;
+    height: 14.063rem;
+}
+
+.card4-text1{
+    display: flex;
+    flex-direction: column;
+    width: 20.5rem;
+    height: 8rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    margin-right: 1.5rem;
+    font-size: 1.5rem;
+    color: #0D1421;
+    font-weight: 500;
+}
+
+.card4-text2{
+    display: flex;
+    flex-direction: column;
+    width: 20.5rem;
+    height: 7.938rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    margin-right: 1.5rem;
+    font-weight: 400;
+    color: #354153;
+    font-size: 1.125rem;
+}
+
+footer{
+    display: flex;
+    width: 100rem;
+    height: 1.5rem;
+    margin-top: 16rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 1.5rem;
+    color: #667085;
+    font-weight: 400;
+    font-size: 1rem;
+}
